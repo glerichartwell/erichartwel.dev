@@ -1,5 +1,5 @@
-import { type ExperienceItem } from "@/components/MyExperience.vue"
-import type { PortfolioItem } from "@/components/MyPortfolio.vue"
+import type { ExperienceItem } from "@/types/myExperience"
+import type { PortfolioItem } from "@/types/myPortfolio"
 
 export const email = "glerichartwell@gmail.com"
 export const linkedinUrl = 'https://linkedin.com/in/glerichartwell'
