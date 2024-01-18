@@ -81,7 +81,7 @@
               constantly changing environment.
             </p>
             <p>
-              My natural love for solving puzzles lead me to a career in software development. As I soon as I was 
+              My natural love for solving puzzles lead me to a career in software development. As soon as I was 
               introduced to web development, I became obsessed. Working on full stack applications allows me to 
               exercise both the problem solving, organizational side of my personality as well as the creative, 
               free-spirited side. I also enjoy working with machine learning tasks, especially when they can be 

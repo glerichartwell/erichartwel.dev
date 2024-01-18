@@ -143,7 +143,7 @@ export const portfolioItems: PortfolioItem[] = [
         key: "lonestarbetta",
         src: "/project-photos/lone-star-betta-text-logo.png",
         title: "Lone Star Betta",
-        info: "After I graduated from UCF, I started taking on some freelance work building Shopify \
+        info: "After graduating from UCF, I began taking on freelance work building Shopify \
                 e-commerce sites. I built this site for an online betta fish retailer based in Texas. \
                 I customized the theme to fit their Lone Star branding as well as designed an additional \
                 photo gallery component that is fully editable for the Shopify store owner in the online \
