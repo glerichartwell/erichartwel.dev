@@ -7,6 +7,7 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 console.log(import.meta.url)
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/",
   css: {
     modules: {
       

@@ -4,18 +4,18 @@ import type { PortfolioItem } from "@/types/myPortfolio"
 export const email = "glerichartwell@gmail.com"
 export const linkedinUrl = 'https://linkedin.com/in/glerichartwell'
 export const githubUrl = 'https://github.com/glerichartwell'
-export const linkedInLogoBlueSrc = "src/assets/LinkedIn-Logos/In-Blue-128@2x.png"
-export const linkedInLogoWhiteSrc = "src/assets/LinkedIn-Logos/In-White-128@2x.png"
-export const githubLogoBlackSrc = "src/assets/github-logos/github-mark/github-mark.svg"
-export const githubLogoWhiteSrc = "src/assets/github-logos/github-mark/github-mark-white.svg"
+export const linkedInLogoBlueSrc = "/LinkedIn-Logos/In-Blue-128@2x.png"
+export const linkedInLogoWhiteSrc = "/LinkedIn-Logos/In-White-128@2x.png"
+export const githubLogoBlackSrc = "/github-logos/github-mark/github-mark.svg"
+export const githubLogoWhiteSrc = "/github-logos/github-mark/github-mark-white.svg"
 
 export const photoGallerySources = [
-    "src/assets/photo-gallery/eric-selfie.jpg",
-    "src/assets/photo-gallery/eric-and-alex.jpg",
-    "src/assets/photo-gallery/eric-felix.jpg",
-    "src/assets/photo-gallery/eric-anees.jpg",
-    "src/assets/photo-gallery/eric-oliver.jpg",
-    "src/assets/photo-gallery/eric-escape-room.jpg",
+    "/photo-gallery/eric-selfie.jpg",
+    "/photo-gallery/eric-and-alex.jpg",
+    "/photo-gallery/eric-felix.jpg",
+    "/photo-gallery/eric-anees.jpg",
+    "/photo-gallery/eric-oliver.jpg",
+    "/photo-gallery/eric-escape-room.jpg",
 ]
 
 
@@ -122,7 +122,7 @@ export const experienceItems: ExperienceItem[] = [
 export const portfolioItems: PortfolioItem[] = [
     {
         key: "adventour",
-        src: "src/assets/project-photos/Logo_Adventour_Sky.png",
+        src: "/project-photos/Logo_Adventour_Sky.png",
         title: "Adventour",
         info: "Adventour, a portmanteau of the words “adventure” and “tour”, is the brainchild of \
                 University of Central Florida student Wanyea Barbel. He crafted this idea at Shell \
@@ -141,7 +141,7 @@ export const portfolioItems: PortfolioItem[] = [
     },
     {
         key: "lonestarbetta",
-        src: "src/assets/project-photos/lone-star-betta-text-logo.png",
+        src: "/project-photos/lone-star-betta-text-logo.png",
         title: "Lone Star Betta",
         info: "After I graduated from UCF, I started taking on some freelance work building Shopify \
                 e-commerce sites. I built this site for an online betta fish retailer based in Texas. \
@@ -155,7 +155,7 @@ export const portfolioItems: PortfolioItem[] = [
     },
     {
         key: "courtneygenix",
-        src: "src/assets/project-photos/courtneygenix.png",
+        src: "/project-photos/courtneygenix.png",
         title: "CourtneyGenix",
         info: "CourtneyGenix is a trainer-client web portal that was built to help a local nutritionist \
                 and personal trainer better facilitate interaction, planning, and execution with her clients.\
@@ -170,7 +170,7 @@ export const portfolioItems: PortfolioItem[] = [
     },
     {
         key: "ehdev",
-        src: "src/assets/project-photos/ehdev.png",
+        src: "/project-photos/ehdev.png",
         title: "erichartwell.dev",
         info: "This is the website you are currently browsing! I wanted to take the time to design and implement \
                 my personal website from scratch in a UI framework that was new to me. I developed this site using \

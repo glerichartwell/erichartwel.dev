@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
+    "run": "node server.js",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "test:unit": "vitest",
@@ -13,6 +14,8 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "connect-history-api-fallback": "^2.0.0",
+    "express": "^4.18.2",
     "pinia": "^2.1.6",
     "sass": "^1.69.3",
     "vue": "^3.3.4",

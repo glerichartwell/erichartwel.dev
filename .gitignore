@@ -26,3 +26,9 @@ coverage
 *.njsproj
 *.sln
 *.sw?
+
+Connect WSL Port to Windows Port.lnk
+setup-LAN-testing.ps1
+
+Dockerfile
+fly.toml
