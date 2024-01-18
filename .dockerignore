@@ -3,5 +3,3 @@ Dockerfile
 .dockerignore
 node_modules
 .git
-Connect WSL Port to Windows Port.lnk
-setup-LAN-testing.ps1
