@@ -1,6 +1,12 @@
-# ehdev
+# erichartwell.dev
 
-This template should help get you started developing with Vue 3 in Vite.
+Welcome to the github repo for my personal website!
+
+I wanted to take the time to design and implement my personal website from scratch in a UI framework that was new to me. I developed this site using Vue. I have some work experience building web clients using Vue, but this was my first opportunity to build all of the components I would be using from scratch instead of using a library.
+
+Many of the components I created for this site are built with reusability in mind. After the time I have spent on this project, I can easily say that Vue has become my favorite UI framework to build web clients with. In my opinion, the built in functionality and organization that Vue has is just unrivaled.
+
+I left the setup instructions provided by Vite and Vue to make running this project on your local machine easier.
 
 ## Recommended IDE Setup
 

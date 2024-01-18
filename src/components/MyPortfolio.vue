@@ -5,16 +5,16 @@
       class='scroll-row' 
       wrap='nowrap' 
       padding='1.2rem 1.2rem' 
-      :gap='screenSize.isLargeScreen ? "32px" : "16px"'
+      :gap='screenSize.isLargeScreen ? "32px" : "24px"'
     >
       <div 
         v-for='item in portfolioItems'
-        :class='`project-card ${selectedItem.key == item.key ? "selected" : ""}`'
+        :class='`project-card `'
         :key='item.key'
         role='button'
-        @click='() => setSelectedItem(item)'
+        @click='(e) => portfolioItemClick(e, item)'
       >
-        <img :src='item.src' :alt='item.alt'>
+        <img :class='`${selectedItem.key == item.key ? "selected" : ""}`' :src='item.src' :alt='item.alt'>
         <div>
           {{ item.title }}
         </div>
@@ -73,6 +73,11 @@ function setSelectedItem(newItem: PortfolioItem) {
 function viewItem(selectedItem: PortfolioItem) {
   window.open(selectedItem.url, "_blank")
 }
+
+function portfolioItemClick(e: MouseEvent, newItem: PortfolioItem) {
+  setSelectedItem(newItem);
+  (e.target as HTMLElement).scrollIntoView({behavior: "smooth", inline: "center", block: "nearest"});
+}
 </script>
 
 <style scoped lang='scss'>
@@ -85,7 +90,7 @@ function viewItem(selectedItem: PortfolioItem) {
 .project-card {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 16px;
   align-items: center;
   height: 100%;
   width: 128px;
@@ -93,9 +98,6 @@ function viewItem(selectedItem: PortfolioItem) {
   text-align: center;
   cursor: pointer;
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.50));
-  &:hover {
-    transform: scale(110%);
-  }
 }
 
 .selected {
@@ -106,6 +108,9 @@ function viewItem(selectedItem: PortfolioItem) {
   width: 128px;
   border-radius: 16px;
   object-fit: cover;
+  &:hover {
+    transform: scale(110%);
+  }
 }
 
 @media screen and (min-width: $large-screen) {
