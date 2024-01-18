@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 // server.js
 const express = require('express');
 const history = require('connect-history-api-fallback')
