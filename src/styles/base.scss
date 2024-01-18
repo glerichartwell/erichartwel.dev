@@ -1,0 +1,170 @@
+$light-green: #A3FFD8;
+$light-green-shade: #92CAB3;
+$green: #1f5e45;
+$dark-green: #103A29;
+$dark-green-shadow: #0D2F21;
+$secondary: #D1D1DF;
+$red: #A63D40;
+$yellow: #EFCB68;
+$black: #000;
+$white: #FFF;
+$nav-height: 104px;
+$large-screen: 1440px;
+$light-mode-gradient: 
+  linear-gradient(to bottom right, #63B492 0%, rgb(255, 255, 255) 45%) bottom right / 50.1% 50.1% no-repeat, 
+  linear-gradient(to bottom left, #63B492 0%, rgb(255, 255, 255) 45%) bottom left / 50.1% 50.1% no-repeat, 
+  linear-gradient(to top left, #63B492 0%, rgb(255, 255, 255) 45%) top left / 50.1% 50.1% no-repeat, 
+  linear-gradient(to top right, #63B492 0%, rgb(255, 255, 255) 45%) top right / 50.1% 50.1% no-repeat, #FFF;
+$dark-mode-gradient: 
+  linear-gradient(to bottom right, #63B492 0%, #3F6E5C 30%, #1c4e3b 45%, #0D2F21 75%) bottom right / 50.1% 50.1% no-repeat, 
+  linear-gradient(to bottom left,  #63B492 0%, #3F6E5C 30%, #1c4e3b 45%, #0D2F21 75%) bottom left / 50.1% 50.1% no-repeat, 
+  linear-gradient(to top left,  #63B492 0%, #3F6E5C 30%, #1c4e3b 45%, #0D2F21 75%) top left / 50.1% 50.1% no-repeat, 
+  linear-gradient(to top right,  #63B492 0%, #3F6E5C 30%, #1c4e3b 45%, #0D2F21 75%) top right / 50.1% 50.1% no-repeat;
+
+*::-webkit-scrollbar {
+  background: transparent;
+  width: 16px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: $light-green-shade;
+  background-clip: content-box;
+  border-radius: 16px;
+  border: 4px solid transparent;
+}
+
+*::-webkit-scrollbar-track {
+  border: 4px solid transparent;
+}
+
+*::-webkit-scrollbar-track-piece {
+  background: transparent;
+}
+
+.active-link {
+  color: $green !important;
+}
+
+/* semantic color variables for this project */
+:root {
+  // use light theme
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .active-link {
+    color: $light-green !important;
+  }
+
+  :root {
+    // use dark theme
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: $light-green-shade;
+    background-clip: content-box;
+    border-radius: 16px;
+    border: 4px solid transparent;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100dvh;
+  line-height: 1.6;
+  font-family:
+    'Segoe UI', 
+    Tahoma,
+    -apple-system,
+    BlinkMacSystemFont,
+    Roboto,
+    'Helvetica Neue',
+    sans-serif;
+  font-size: 62.5%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+div {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1.2rem;
+  // text-align: justify;
+}
+
+h1 {
+  font-size: 3.0rem;
+  padding: 0 32px 0 0; 
+  font-family: 'Oooh Baby', sans-serif;
+}
+
+h2 {
+  font-size: 2.6rem;
+}
+
+h3 {
+  font-size: 2.2rem;
+}
+
+h4 {
+  font-size: 2.0rem;
+}
+
+h5 {
+  font-size: 1.8rem;
+}
+
+h6 {
+  font-size: 1.6rem;
+}
+
+@media screen and (min-width: 769) {
+  div {
+    font-size: 1.6rem;
+  }
+  
+  p {
+    font-size: 1.4rem;
+    // text-align: justify;
+  }
+  
+  h1 {
+    font-size: 3.6rem;
+    padding: 0 32px 0 0; 
+    font-family: 'Oooh Baby', sans-serif;
+  }
+  
+  h2 {
+    font-size: 2.8rem;
+  }
+  
+  h3 {
+    font-size: 2.4rem;
+  }
+  
+  h4 {
+    font-size: 2.2rem;
+  }
+  
+  h5 {
+    font-size: 2.0rem;
+  }
+  
+  h6 {
+    font-size: 1.8rem;
+  }
+}

@@ -1,0 +1,23 @@
+$light-green: #A3FFD8;
+$light-green-shade: #63B492;
+$green: #1f5e45;
+$dark-green: #103A29;
+$dark-green-shade: #0D2F21;
+$secondary: #D1D1DF;
+$red: #A63D40;
+$yellow: #EFCB68;
+$black: #000;
+$white: #FFF;
+
+:export {
+  lightGreen: $light-green;
+  lightGreenShade: $light-green-shade;
+  green: $green;
+  darkGreen: $dark-green;
+  darkGreenShade: $dark-green-shade;
+  secondary: $secondary;
+  red: $red;
+  yellow: $yellow;
+  black: $black;
+  white: $white;
+}
