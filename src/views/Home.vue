@@ -71,7 +71,7 @@
             </component>
             <p>
               I am a recent graduate of the University of Central Florida Computer Science program where I focused 
-              on web development fundementals and machine learning. I most recently worked as a full stack 
+              on web development fundamentals and machine learning. I most recently worked as a full stack 
               developer for Retail Business Services, the service company for grocery retailer, Ahold Delhaize.
             </p>
             <p>
@@ -108,7 +108,7 @@
             I spent the first decade of my professional life working in retail and hospitality which gave me the skills 
             necessary for excellent communication, multi-tasking, and handling high-pressure situations. Below you can 
             find my past work experience and what I contributed to each company. I have included some of the more recent
-            experience I have in the hospitality industy as well as my work as an engineer.
+            experience I have in the hospitality industry as well as my work as an engineer.
           </p>
           <my-experience shadow :experience-items='experienceItems' :background-color='colorStore.timelineBackgroundColor' :selected-color='colorStore.timelineSelectedColor'/>
           <router-link v-if='!screenSize.isLargeScreen' to='/experience' class='section-link'>
